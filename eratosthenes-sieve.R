@@ -6,7 +6,7 @@
 
 sieve <- function(x){
   ## input: a positive number x
-  ## return: vector of prime numbers smaller than x
+  ## return: vector of prime numbers equal to or smaller than x
   x <- floor(x)
   indicators <- rep(1, x)
   indicators[1] <- 0
