@@ -28,6 +28,3 @@ selection.sort <- function(vector){
   } 
   return(vector)
 }
-
-
-
